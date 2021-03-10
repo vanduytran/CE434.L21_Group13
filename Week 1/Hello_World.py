@@ -49,3 +49,4 @@ out_stream_video.release()
 
 # Close all window
 cv2.destroyAllWindows()
+
