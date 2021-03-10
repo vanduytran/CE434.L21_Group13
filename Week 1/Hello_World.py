@@ -14,15 +14,14 @@ height = int(webcam.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 print("Frame size of the video: ", width, "x", height)
 
-# Determine the output format (file's name, codec code, fps, frame size)
+# Specify the output format (name of the file, codec code, fps, frame size)
 out_stream_video = cv2.VideoWriter('stream_video.avi', fourcc, 30, (width, height))
 
-# Use cap.isOpened () to check if the webcam is valid or not 
+# Use webcam.isOpened () to check the webcam
 if(webcam.isOpened() == False):
     print("Cannot to stream video")
 else:
     while(webcam.isOpened()):
-
         # Read frame from the webcam
         check , frame = webcam.read()
         
