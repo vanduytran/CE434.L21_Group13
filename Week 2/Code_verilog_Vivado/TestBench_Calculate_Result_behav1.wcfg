@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestBench_Calculate_Result_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestBench_Calculate_Result" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="239843918fs"></ZoomStartTime>
+      <ZoomEndTime time="240285919fs"></ZoomEndTime>
+      <Cursor1Time time="240049418fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/TestBench_Calculate_Result/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/scale_blue" type="array">
+      <obj_property name="ElementShortName">scale_blue[31:0]</obj_property>
+      <obj_property name="ObjectShortName">scale_blue[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/scale_green" type="array">
+      <obj_property name="ElementShortName">scale_green[31:0]</obj_property>
+      <obj_property name="ObjectShortName">scale_green[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/scale_red" type="array">
+      <obj_property name="ElementShortName">scale_red[31:0]</obj_property>
+      <obj_property name="ObjectShortName">scale_red[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/out_1_bram_read" type="array">
+      <obj_property name="ElementShortName">out_1_bram_read[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out_1_bram_read[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/out_0_bram_write" type="array">
+      <obj_property name="ElementShortName">out_0_bram_write[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_0_bram_write[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/out_1_bram_write" type="array">
+      <obj_property name="ElementShortName">out_1_bram_write[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_1_bram_write[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/IMAGE_HEIGHT" type="array">
+      <obj_property name="ElementShortName">IMAGE_HEIGHT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMAGE_HEIGHT[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/IMAGE_WIDTH" type="array">
+      <obj_property name="ElementShortName">IMAGE_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMAGE_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/TOTAL_NUMBER_CONVERT" type="array">
+      <obj_property name="ElementShortName">TOTAL_NUMBER_CONVERT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TOTAL_NUMBER_CONVERT[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/DATA_COLOR_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_COLOR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_COLOR_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/DATA_IN_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_IN_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/FIXED_POINT_WIDTH" type="array">
+      <obj_property name="ElementShortName">FIXED_POINT_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FIXED_POINT_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/POINT_POSITION" type="array">
+      <obj_property name="ElementShortName">POINT_POSITION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">POINT_POSITION[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/ADRR_WIDTH_BRAM" type="array">
+      <obj_property name="ElementShortName">ADRR_WIDTH_BRAM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADRR_WIDTH_BRAM[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/LINK_BRAM_READ" type="array">
+      <obj_property name="ElementShortName">LINK_BRAM_READ[687:0]</obj_property>
+      <obj_property name="ObjectShortName">LINK_BRAM_READ[687:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/LINK_BRAM_WRITE" type="array">
+      <obj_property name="ElementShortName">LINK_BRAM_WRITE[695:0]</obj_property>
+      <obj_property name="ObjectShortName">LINK_BRAM_WRITE[695:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/t" type="array">
+      <obj_property name="ElementShortName">t[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/ram" type="array">
+      <obj_property name="ElementShortName">ram[8191:0][23:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[8191:0][23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/ram" type="array">
+      <obj_property name="ElementShortName">ram[8191:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[8191:0][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus560" type="vbus">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/reset_n" type="logic">
+         <obj_property name="ElementShortName">reset_n</obj_property>
+         <obj_property name="ObjectShortName">reset_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/scale_red" type="array">
+         <obj_property name="ElementShortName">scale_red[31:0]</obj_property>
+         <obj_property name="ObjectShortName">scale_red[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">16</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/scale_green" type="array">
+         <obj_property name="ElementShortName">scale_green[31:0]</obj_property>
+         <obj_property name="ObjectShortName">scale_green[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">16</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/scale_blue" type="array">
+         <obj_property name="ElementShortName">scale_blue[31:0]</obj_property>
+         <obj_property name="ObjectShortName">scale_blue[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">16</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/in0_bram_read" type="array">
+         <obj_property name="ElementShortName">in0_bram_read[23:0]</obj_property>
+         <obj_property name="ObjectShortName">in0_bram_read[23:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/in1_bram_read" type="array">
+         <obj_property name="ElementShortName">in1_bram_read[23:0]</obj_property>
+         <obj_property name="ObjectShortName">in1_bram_read[23:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/addr0_bram_read" type="array">
+         <obj_property name="ElementShortName">addr0_bram_read[12:0]</obj_property>
+         <obj_property name="ObjectShortName">addr0_bram_read[12:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/addr1_bram_read" type="array">
+         <obj_property name="ElementShortName">addr1_bram_read[12:0]</obj_property>
+         <obj_property name="ObjectShortName">addr1_bram_read[12:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/ena_bram_read" type="logic">
+         <obj_property name="ElementShortName">ena_bram_read</obj_property>
+         <obj_property name="ObjectShortName">ena_bram_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/enb_bram_read" type="logic">
+         <obj_property name="ElementShortName">enb_bram_read</obj_property>
+         <obj_property name="ObjectShortName">enb_bram_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/we_a_bram_read" type="logic">
+         <obj_property name="ElementShortName">we_a_bram_read</obj_property>
+         <obj_property name="ObjectShortName">we_a_bram_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/we_b_bram_read" type="logic">
+         <obj_property name="ElementShortName">we_b_bram_read</obj_property>
+         <obj_property name="ObjectShortName">we_b_bram_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/in1_bram_write" type="array">
+         <obj_property name="ElementShortName">in1_bram_write[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in1_bram_write[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/addr0_bram_write" type="array">
+         <obj_property name="ElementShortName">addr0_bram_write[12:0]</obj_property>
+         <obj_property name="ObjectShortName">addr0_bram_write[12:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/addr1_bram_write" type="array">
+         <obj_property name="ElementShortName">addr1_bram_write[12:0]</obj_property>
+         <obj_property name="ObjectShortName">addr1_bram_write[12:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/ena_bram_write" type="logic">
+         <obj_property name="ElementShortName">ena_bram_write</obj_property>
+         <obj_property name="ObjectShortName">ena_bram_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/enb_bram_write" type="logic">
+         <obj_property name="ElementShortName">enb_bram_write</obj_property>
+         <obj_property name="ObjectShortName">enb_bram_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/we_a_bram_write" type="logic">
+         <obj_property name="ElementShortName">we_a_bram_write</obj_property>
+         <obj_property name="ObjectShortName">we_a_bram_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/we_b_bram_write" type="logic">
+         <obj_property name="ElementShortName">we_b_bram_write</obj_property>
+         <obj_property name="ObjectShortName">we_b_bram_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/scale_red_data_path" type="array">
+         <obj_property name="ElementShortName">scale_red_data_path[31:0]</obj_property>
+         <obj_property name="ObjectShortName">scale_red_data_path[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">16</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/scale_green_data_path" type="array">
+         <obj_property name="ElementShortName">scale_green_data_path[31:0]</obj_property>
+         <obj_property name="ObjectShortName">scale_green_data_path[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">16</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/scale_blue_data_path" type="array">
+         <obj_property name="ElementShortName">scale_blue_data_path[31:0]</obj_property>
+         <obj_property name="ObjectShortName">scale_blue_data_path[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">16</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/en_calculate" type="logic">
+         <obj_property name="ElementShortName">en_calculate</obj_property>
+         <obj_property name="ObjectShortName">en_calculate</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/count_step" type="array">
+         <obj_property name="ElementShortName">count_step[31:0]</obj_property>
+         <obj_property name="ObjectShortName">count_step[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/IMAGE_HEIGHT" type="array">
+         <obj_property name="ElementShortName">IMAGE_HEIGHT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IMAGE_HEIGHT[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/IMAGE_WIDTH" type="array">
+         <obj_property name="ElementShortName">IMAGE_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IMAGE_WIDTH[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/TOTAL_NUMBER_CONVERT" type="array">
+         <obj_property name="ElementShortName">TOTAL_NUMBER_CONVERT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TOTAL_NUMBER_CONVERT[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/DATA_COLOR_WIDTH" type="array">
+         <obj_property name="ElementShortName">DATA_COLOR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_COLOR_WIDTH[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/DATA_IN_WIDTH" type="array">
+         <obj_property name="ElementShortName">DATA_IN_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN_WIDTH[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/FIXED_POINT_WIDTH" type="array">
+         <obj_property name="ElementShortName">FIXED_POINT_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FIXED_POINT_WIDTH[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins0/ADRR_WIDTH_BRAM" type="array">
+         <obj_property name="ElementShortName">ADRR_WIDTH_BRAM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ADRR_WIDTH_BRAM[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus561" type="vbus">
+      <obj_property name="label">Data_Path</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="vbus415" type="vbus">
+         <obj_property name="label">Bram_Read</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/data_a" type="array">
+            <obj_property name="ElementShortName">data_a[23:0]</obj_property>
+            <obj_property name="ObjectShortName">data_a[23:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/data_b" type="array">
+            <obj_property name="ElementShortName">data_b[23:0]</obj_property>
+            <obj_property name="ObjectShortName">data_b[23:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/addr_a" type="array">
+            <obj_property name="ElementShortName">addr_a[12:0]</obj_property>
+            <obj_property name="ObjectShortName">addr_a[12:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/addr_b" type="array">
+            <obj_property name="ElementShortName">addr_b[12:0]</obj_property>
+            <obj_property name="ObjectShortName">addr_b[12:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/we_a" type="logic">
+            <obj_property name="ElementShortName">we_a</obj_property>
+            <obj_property name="ObjectShortName">we_a</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/we_b" type="logic">
+            <obj_property name="ElementShortName">we_b</obj_property>
+            <obj_property name="ObjectShortName">we_b</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/ena" type="logic">
+            <obj_property name="ElementShortName">ena</obj_property>
+            <obj_property name="ObjectShortName">ena</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/enb" type="logic">
+            <obj_property name="ElementShortName">enb</obj_property>
+            <obj_property name="ObjectShortName">enb</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="vbus613" type="vbus">
+            <obj_property name="label">q_a</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="vbus595" type="vbus">
+               <obj_property name="label">green</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[15]" type="logic">
+                  <obj_property name="ElementShortName">[15]</obj_property>
+                  <obj_property name="ObjectShortName">[15]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[14]" type="logic">
+                  <obj_property name="ElementShortName">[14]</obj_property>
+                  <obj_property name="ObjectShortName">[14]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[13]" type="logic">
+                  <obj_property name="ElementShortName">[13]</obj_property>
+                  <obj_property name="ObjectShortName">[13]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[12]" type="logic">
+                  <obj_property name="ElementShortName">[12]</obj_property>
+                  <obj_property name="ObjectShortName">[12]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[11]" type="logic">
+                  <obj_property name="ElementShortName">[11]</obj_property>
+                  <obj_property name="ObjectShortName">[11]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[10]" type="logic">
+                  <obj_property name="ElementShortName">[10]</obj_property>
+                  <obj_property name="ObjectShortName">[10]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[9]" type="logic">
+                  <obj_property name="ElementShortName">[9]</obj_property>
+                  <obj_property name="ObjectShortName">[9]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[8]" type="logic">
+                  <obj_property name="ElementShortName">[8]</obj_property>
+                  <obj_property name="ObjectShortName">[8]</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="vbus586" type="vbus">
+               <obj_property name="label">blue</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[23]" type="logic">
+                  <obj_property name="ElementShortName">[23]</obj_property>
+                  <obj_property name="ObjectShortName">[23]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[22]" type="logic">
+                  <obj_property name="ElementShortName">[22]</obj_property>
+                  <obj_property name="ObjectShortName">[22]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[21]" type="logic">
+                  <obj_property name="ElementShortName">[21]</obj_property>
+                  <obj_property name="ObjectShortName">[21]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[20]" type="logic">
+                  <obj_property name="ElementShortName">[20]</obj_property>
+                  <obj_property name="ObjectShortName">[20]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[19]" type="logic">
+                  <obj_property name="ElementShortName">[19]</obj_property>
+                  <obj_property name="ObjectShortName">[19]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[18]" type="logic">
+                  <obj_property name="ElementShortName">[18]</obj_property>
+                  <obj_property name="ObjectShortName">[18]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[17]" type="logic">
+                  <obj_property name="ElementShortName">[17]</obj_property>
+                  <obj_property name="ObjectShortName">[17]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[16]" type="logic">
+                  <obj_property name="ElementShortName">[16]</obj_property>
+                  <obj_property name="ObjectShortName">[16]</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="vbus604" type="vbus">
+               <obj_property name="label">red</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[7]" type="logic">
+                  <obj_property name="ElementShortName">[7]</obj_property>
+                  <obj_property name="ObjectShortName">[7]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[6]" type="logic">
+                  <obj_property name="ElementShortName">[6]</obj_property>
+                  <obj_property name="ObjectShortName">[6]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[5]" type="logic">
+                  <obj_property name="ElementShortName">[5]</obj_property>
+                  <obj_property name="ObjectShortName">[5]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[4]" type="logic">
+                  <obj_property name="ElementShortName">[4]</obj_property>
+                  <obj_property name="ObjectShortName">[4]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[3]" type="logic">
+                  <obj_property name="ElementShortName">[3]</obj_property>
+                  <obj_property name="ObjectShortName">[3]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[2]" type="logic">
+                  <obj_property name="ElementShortName">[2]</obj_property>
+                  <obj_property name="ObjectShortName">[2]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[1]" type="logic">
+                  <obj_property name="ElementShortName">[1]</obj_property>
+                  <obj_property name="ObjectShortName">[1]</obj_property>
+               </wvobject>
+               <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_a[0]" type="logic">
+                  <obj_property name="ElementShortName">[0]</obj_property>
+                  <obj_property name="ObjectShortName">[0]</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins0/q_b" type="array">
+            <obj_property name="ElementShortName">q_b[23:0]</obj_property>
+            <obj_property name="ObjectShortName">q_b[23:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus435" type="vbus">
+         <obj_property name="label">Calculate_Result</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/data_in" type="array">
+            <obj_property name="ElementShortName">data_in[23:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in[23:0]</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/scale_blue" type="array">
+            <obj_property name="ElementShortName">scale_blue[31:0]</obj_property>
+            <obj_property name="ObjectShortName">scale_blue[31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">16</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/scale_green" type="array">
+            <obj_property name="ElementShortName">scale_green[31:0]</obj_property>
+            <obj_property name="ObjectShortName">scale_green[31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">16</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/scale_red" type="array">
+            <obj_property name="ElementShortName">scale_red[31:0]</obj_property>
+            <obj_property name="ObjectShortName">scale_red[31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">16</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/en" type="logic">
+            <obj_property name="ElementShortName">en</obj_property>
+            <obj_property name="ObjectShortName">en</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/blue" type="array">
+            <obj_property name="ElementShortName">blue[7:0]</obj_property>
+            <obj_property name="ObjectShortName">blue[7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/green" type="array">
+            <obj_property name="ElementShortName">green[7:0]</obj_property>
+            <obj_property name="ObjectShortName">green[7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/red" type="array">
+            <obj_property name="ElementShortName">red[7:0]</obj_property>
+            <obj_property name="ObjectShortName">red[7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/post_scale_blue" type="array">
+            <obj_property name="ElementShortName">post_scale_blue[39:0]</obj_property>
+            <obj_property name="ObjectShortName">post_scale_blue[39:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">16</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/post_scale_green" type="array">
+            <obj_property name="ElementShortName">post_scale_green[39:0]</obj_property>
+            <obj_property name="ObjectShortName">post_scale_green[39:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">16</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/post_scale_red" type="array">
+            <obj_property name="ElementShortName">post_scale_red[39:0]</obj_property>
+            <obj_property name="ObjectShortName">post_scale_red[39:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">16</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/data_out_temp_0" type="array">
+            <obj_property name="ElementShortName">data_out_temp_0[41:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out_temp_0[41:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">16</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/data_out_temp_1" type="array">
+            <obj_property name="ElementShortName">data_out_temp_1[41:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out_temp_1[41:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">16</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/data_out" type="array">
+            <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/DATA_COLOR_WIDTH" type="array">
+            <obj_property name="ElementShortName">DATA_COLOR_WIDTH[31:0]</obj_property>
+            <obj_property name="ObjectShortName">DATA_COLOR_WIDTH[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/DATA_IN_WIDTH" type="array">
+            <obj_property name="ElementShortName">DATA_IN_WIDTH[31:0]</obj_property>
+            <obj_property name="ObjectShortName">DATA_IN_WIDTH[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/FIXED_POINT_WIDTH" type="array">
+            <obj_property name="ElementShortName">FIXED_POINT_WIDTH[31:0]</obj_property>
+            <obj_property name="ObjectShortName">FIXED_POINT_WIDTH[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins1/POINT_POSITION" type="array">
+            <obj_property name="ElementShortName">POINT_POSITION[31:0]</obj_property>
+            <obj_property name="ObjectShortName">POINT_POSITION[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="vbus452" type="vbus">
+         <obj_property name="label">Bram_Write</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/data_a" type="array">
+            <obj_property name="ElementShortName">data_a[7:0]</obj_property>
+            <obj_property name="ObjectShortName">data_a[7:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/data_b" type="array">
+            <obj_property name="ElementShortName">data_b[7:0]</obj_property>
+            <obj_property name="ObjectShortName">data_b[7:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/addr_a" type="array">
+            <obj_property name="ElementShortName">addr_a[12:0]</obj_property>
+            <obj_property name="ObjectShortName">addr_a[12:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/addr_b" type="array">
+            <obj_property name="ElementShortName">addr_b[12:0]</obj_property>
+            <obj_property name="ObjectShortName">addr_b[12:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/we_a" type="logic">
+            <obj_property name="ElementShortName">we_a</obj_property>
+            <obj_property name="ObjectShortName">we_a</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/we_b" type="logic">
+            <obj_property name="ElementShortName">we_b</obj_property>
+            <obj_property name="ObjectShortName">we_b</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/ena" type="logic">
+            <obj_property name="ElementShortName">ena</obj_property>
+            <obj_property name="ObjectShortName">ena</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/enb" type="logic">
+            <obj_property name="ElementShortName">enb</obj_property>
+            <obj_property name="ObjectShortName">enb</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/q_a" type="array">
+            <obj_property name="ElementShortName">q_a[7:0]</obj_property>
+            <obj_property name="ObjectShortName">q_a[7:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/q_b" type="array">
+            <obj_property name="ElementShortName">q_b[7:0]</obj_property>
+            <obj_property name="ObjectShortName">q_b[7:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/file_id" type="array">
+            <obj_property name="ElementShortName">file_id[31:0]</obj_property>
+            <obj_property name="ObjectShortName">file_id[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/DATA_WIDTH" type="array">
+            <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+            <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/ADDR_WIDTH" type="array">
+            <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/TestBench_Calculate_Result/ins0/ins1/ins2/LINK" type="array">
+            <obj_property name="ElementShortName">LINK[695:0]</obj_property>
+            <obj_property name="ObjectShortName">LINK[695:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

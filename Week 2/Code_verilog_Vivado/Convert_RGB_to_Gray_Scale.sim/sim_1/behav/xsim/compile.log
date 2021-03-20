@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/BRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/BRAM_Store_Data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRAM_Store_Data
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/Calculate_Result.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Calculate_Result
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/Convert_RGB_To_Gray_Scale.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Convert_RGB_To_Gray_Scale
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/Data_Path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Path
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sim_1/new/TestBench_Convert_RGB_To_Gray_Scale.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestBench_Calculate_Result
