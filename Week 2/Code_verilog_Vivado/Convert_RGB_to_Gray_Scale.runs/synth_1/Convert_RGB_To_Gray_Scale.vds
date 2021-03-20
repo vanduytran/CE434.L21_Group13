@@ -1,0 +1,308 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Mar 20 07:45:54 2021
+# Process ID: 14216
+# Current directory: E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.runs/synth_1
+# Command line: vivado.exe -log Convert_RGB_To_Gray_Scale.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Convert_RGB_To_Gray_Scale.tcl
+# Log file: E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.runs/synth_1/Convert_RGB_To_Gray_Scale.vds
+# Journal file: E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Convert_RGB_To_Gray_Scale.tcl -notrace
+Command: synth_design -top Convert_RGB_To_Gray_Scale -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1448
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Convert_RGB_To_Gray_Scale' [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/Convert_RGB_To_Gray_Scale.v:3]
+	Parameter IMAGE_HEIGHT bound to: 5 - type: integer 
+	Parameter IMAGE_WIDTH bound to: 5 - type: integer 
+	Parameter TOTAL_NUMBER_CONVERT bound to: 25 - type: integer 
+	Parameter DATA_COLOR_WIDTH bound to: 8 - type: integer 
+	Parameter DATA_IN_WIDTH bound to: 24 - type: integer 
+	Parameter FIXED_POINT_WIDTH bound to: 32 - type: integer 
+	Parameter POINT_POSITION bound to: 16 - type: integer 
+	Parameter ADRR_WIDTH_BRAM bound to: 6 - type: integer 
+	Parameter LINK_BRAM_READ bound to: (null) - type: string 
+	Parameter LINK_BRAM_WRITE bound to: (null) - type: string 
+INFO: [Synth 8-6157] synthesizing module 'Controller' [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/Controller.v:3]
+	Parameter IMAGE_HEIGHT bound to: 5 - type: integer 
+	Parameter IMAGE_WIDTH bound to: 5 - type: integer 
+	Parameter TOTAL_NUMBER_CONVERT bound to: 25 - type: integer 
+	Parameter DATA_COLOR_WIDTH bound to: 8 - type: integer 
+	Parameter DATA_IN_WIDTH bound to: 24 - type: integer 
+	Parameter FIXED_POINT_WIDTH bound to: 32 - type: integer 
+	Parameter ADRR_WIDTH_BRAM bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (1#1) [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/Controller.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Data_Path' [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/Data_Path.v:3]
+	Parameter DATA_COLOR_WIDTH bound to: 8 - type: integer 
+	Parameter DATA_IN_WIDTH bound to: 24 - type: integer 
+	Parameter FIXED_POINT_WIDTH bound to: 32 - type: integer 
+	Parameter POINT_POSITION bound to: 16 - type: integer 
+	Parameter LINK_BRAM_READ bound to: (null) - type: string 
+	Parameter LINK_BRAM_WRITE bound to: (null) - type: string 
+	Parameter ADRR_WIDTH_BRAM bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'BRAM' [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/BRAM.v:3]
+	Parameter DATA_WIDTH bound to: 24 - type: integer 
+	Parameter ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter LINK bound to: (null) - type: string 
+WARNING: [Synth 8-2898] ignoring malformed $readmem task [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/BRAM.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM' (2#1) [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/BRAM.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Calculate_Result' [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/Calculate_Result.v:3]
+	Parameter DATA_COLOR_WIDTH bound to: 8 - type: integer 
+	Parameter DATA_IN_WIDTH bound to: 24 - type: integer 
+	Parameter FIXED_POINT_WIDTH bound to: 32 - type: integer 
+	Parameter POINT_POSITION bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Calculate_Result' (3#1) [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/Calculate_Result.v:3]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_Store_Data' [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/BRAM_Store_Data.v:3]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter LINK bound to: (null) - type: string 
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "ram_reg" dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_Store_Data' (4#1) [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/BRAM_Store_Data.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Path' (5#1) [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/Data_Path.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Convert_RGB_To_Gray_Scale' (6#1) [E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.srcs/sources_1/new/Convert_RGB_To_Gray_Scale.v:3]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-3971] The signal "BRAM:/ram_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   42 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   24 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 3     
+	               32 Bit    Registers := 4     
+	               24 Bit    Registers := 5     
+	                8 Bit    Registers := 67    
+	                6 Bit    Registers := 4     
+	                1 Bit    Registers := 9     
++---Multipliers : 
+	               8x32  Multipliers := 3     
++---RAMs : 
+	               1K Bit	(64 X 24 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input  512 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 6     
+	   2 Input   24 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 131   
+	   2 Input    6 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP ins1/ins1/post_scale_green0, operation Mode is: A*B.
+DSP Report: operator ins1/ins1/post_scale_green0 is absorbed into DSP ins1/ins1/post_scale_green0.
+DSP Report: operator ins1/ins1/post_scale_green0 is absorbed into DSP ins1/ins1/post_scale_green0.
+DSP Report: Generating DSP ins1/ins1/post_scale_green_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register ins1/ins1/post_scale_green_reg is absorbed into DSP ins1/ins1/post_scale_green_reg.
+DSP Report: operator ins1/ins1/post_scale_green0 is absorbed into DSP ins1/ins1/post_scale_green_reg.
+DSP Report: operator ins1/ins1/post_scale_green0 is absorbed into DSP ins1/ins1/post_scale_green_reg.
+DSP Report: Generating DSP ins1/ins1/post_scale_blue0, operation Mode is: A*B.
+DSP Report: operator ins1/ins1/post_scale_blue0 is absorbed into DSP ins1/ins1/post_scale_blue0.
+DSP Report: operator ins1/ins1/post_scale_blue0 is absorbed into DSP ins1/ins1/post_scale_blue0.
+DSP Report: Generating DSP ins1/ins1/post_scale_blue_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register ins1/ins1/post_scale_blue_reg is absorbed into DSP ins1/ins1/post_scale_blue_reg.
+DSP Report: operator ins1/ins1/post_scale_blue0 is absorbed into DSP ins1/ins1/post_scale_blue_reg.
+DSP Report: operator ins1/ins1/post_scale_blue0 is absorbed into DSP ins1/ins1/post_scale_blue_reg.
+DSP Report: Generating DSP ins1/ins1/post_scale_red0, operation Mode is: A*B.
+DSP Report: operator ins1/ins1/post_scale_red0 is absorbed into DSP ins1/ins1/post_scale_red0.
+DSP Report: operator ins1/ins1/post_scale_red0 is absorbed into DSP ins1/ins1/post_scale_red0.
+DSP Report: Generating DSP ins1/ins1/post_scale_red_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register ins1/ins1/post_scale_red_reg is absorbed into DSP ins1/ins1/post_scale_red_reg.
+DSP Report: operator ins1/ins1/post_scale_red0 is absorbed into DSP ins1/ins1/post_scale_red_reg.
+DSP Report: operator ins1/ins1/post_scale_red0 is absorbed into DSP ins1/ins1/post_scale_red_reg.
+INFO: [Synth 8-3971] The signal "Convert_RGB_To_Gray_Scale/ins1/ins0/ram_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping	Report (see note below)
++--------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name               | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Convert_RGB_To_Gray_Scale | A*B            | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Convert_RGB_To_Gray_Scale | (PCIN>>17)+A*B | 16     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|Convert_RGB_To_Gray_Scale | A*B            | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Convert_RGB_To_Gray_Scale | (PCIN>>17)+A*B | 16     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|Convert_RGB_To_Gray_Scale | A*B            | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Convert_RGB_To_Gray_Scale | (PCIN>>17)+A*B | 16     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++--------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |    30|
+|3     |DSP48E1 |     6|
+|4     |LUT1    |     2|
+|5     |LUT2    |   242|
+|6     |LUT3    |   146|
+|7     |LUT4    |     5|
+|8     |LUT5    |    11|
+|9     |LUT6    |   249|
+|10    |MUXF7   |    64|
+|11    |MUXF8   |    32|
+|12    |FDCE    |   135|
+|13    |FDPE    |    96|
+|14    |FDRE    |   579|
+|15    |LDC     |    96|
+|16    |IBUF    |    99|
+|17    |OBUF    |    40|
++------+--------+------+
+
+Report Instance Areas: 
++------+---------+-----------------+------+
+|      |Instance |Module           |Cells |
++------+---------+-----------------+------+
+|1     |top      |                 |  1833|
+|2     |  ins0   |Controller       |   754|
+|3     |  ins1   |Data_Path        |   939|
+|4     |    ins1 |Calculate_Result |   187|
+|5     |    ins2 |BRAM_Store_Data  |   752|
++------+---------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 1002.273 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 1002.273 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 1002.273 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1002.273 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 228 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1002.273 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 96 instances were transformed.
+  LDC => LDCE: 96 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 1002.273 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.runs/synth_1/Convert_RGB_To_Gray_Scale.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Convert_RGB_To_Gray_Scale_utilization_synth.rpt -pb Convert_RGB_To_Gray_Scale_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 20 07:46:37 2021...

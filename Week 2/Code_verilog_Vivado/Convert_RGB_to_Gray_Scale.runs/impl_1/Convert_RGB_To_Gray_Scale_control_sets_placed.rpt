@@ -1,0 +1,433 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat Mar 20 07:47:26 2021
+| Host         : DESKTOP-Q4CTJVO running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Convert_RGB_To_Gray_Scale_control_sets_placed.rpt
+| Design       : Convert_RGB_To_Gray_Scale
+| Device       : xc7z020
+------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   355 |
+|    Minimum number of control sets                        |   355 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |  2022 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   355 |
+| >= 0 to < 4        |   288 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |    64 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              67 |           17 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              96 |           96 |
+| Yes          | No                    | No                     |             512 |          189 |
+| Yes          | No                    | Yes                    |             231 |          203 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------------+---------------------------------+------------------------------------------------+------------------+----------------+--------------+
+|                   Clock Signal                  |          Enable Signal          |                Set/Reset Signal                | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------------------------------------+---------------------------------+------------------------------------------------+------------------+----------------+--------------+
+|  ins0/scale_blue_data_path_reg[10]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[10]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[14]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[14]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[11]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[11]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[13]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[13]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[15]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[15]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[16]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[16]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[12]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[12]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[0]_LDC_i_1_n_0   |                                 | ins0/scale_blue_data_path_reg[0]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[18]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[18]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[22]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[22]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[25]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[25]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[27]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[27]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[1]_LDC_i_1_n_0   |                                 | ins0/scale_blue_data_path_reg[1]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[24]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[24]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[23]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[23]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[21]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[21]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[19]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[19]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[20]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[20]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[17]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[17]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[26]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[26]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[28]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[28]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[8]_LDC_i_1_n_0   |                                 | ins0/scale_blue_data_path_reg[8]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[3]_LDC_i_1_n_0   |                                 | ins0/scale_blue_data_path_reg[3]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[30]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[30]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[31]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[31]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[29]_LDC_i_1_n_0  |                                 | ins0/scale_blue_data_path_reg[29]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[6]_LDC_i_1_n_0   |                                 | ins0/scale_blue_data_path_reg[6]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[4]_LDC_i_1_n_0   |                                 | ins0/scale_blue_data_path_reg[4]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[7]_LDC_i_1_n_0   |                                 | ins0/scale_blue_data_path_reg[7]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[0]_LDC_i_1_n_0  |                                 | ins0/scale_green_data_path_reg[0]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[9]_LDC_i_1_n_0   |                                 | ins0/scale_blue_data_path_reg[9]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[5]_LDC_i_1_n_0   |                                 | ins0/scale_blue_data_path_reg[5]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_blue_data_path_reg[2]_LDC_i_1_n_0   |                                 | ins0/scale_blue_data_path_reg[2]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[12]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[12]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[14]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[14]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[10]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[10]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[20]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[20]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[21]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[21]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[11]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[11]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[13]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[13]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[18]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[18]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[1]_LDC_i_1_n_0  |                                 | ins0/scale_green_data_path_reg[1]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[17]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[17]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[19]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[19]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[16]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[16]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[15]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[15]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[22]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[22]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[29]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[29]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[30]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[30]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[23]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[23]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[31]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[31]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[26]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[26]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[3]_LDC_i_1_n_0  |                                 | ins0/scale_green_data_path_reg[3]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[4]_LDC_i_1_n_0  |                                 | ins0/scale_green_data_path_reg[4]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[2]_LDC_i_1_n_0  |                                 | ins0/scale_green_data_path_reg[2]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[27]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[27]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[25]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[25]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[24]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[24]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[28]_LDC_i_1_n_0 |                                 | ins0/scale_green_data_path_reg[28]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[14]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[14]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[11]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[11]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[15]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[15]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[16]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[16]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[6]_LDC_i_1_n_0  |                                 | ins0/scale_green_data_path_reg[6]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[0]_LDC_i_1_n_0    |                                 | ins0/scale_red_data_path_reg[0]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[7]_LDC_i_1_n_0  |                                 | ins0/scale_green_data_path_reg[7]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[10]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[10]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[12]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[12]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[8]_LDC_i_1_n_0  |                                 | ins0/scale_green_data_path_reg[8]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[9]_LDC_i_1_n_0  |                                 | ins0/scale_green_data_path_reg[9]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[13]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[13]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_green_data_path_reg[5]_LDC_i_1_n_0  |                                 | ins0/scale_green_data_path_reg[5]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[26]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[26]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[18]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[18]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[19]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[19]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[21]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[21]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[1]_LDC_i_1_n_0    |                                 | ins0/scale_red_data_path_reg[1]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[22]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[22]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[23]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[23]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[17]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[17]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[27]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[27]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[24]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[24]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[20]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[20]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[25]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[25]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[28]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[28]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[5]_LDC_i_1_n_0    |                                 | ins0/scale_red_data_path_reg[5]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[29]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[29]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[31]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[31]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[30]_LDC_i_1_n_0   |                                 | ins0/scale_red_data_path_reg[30]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[6]_LDC_i_1_n_0    |                                 | ins0/scale_red_data_path_reg[6]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[3]_LDC_i_1_n_0    |                                 | ins0/scale_red_data_path_reg[3]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[8]_LDC_i_1_n_0    |                                 | ins0/scale_red_data_path_reg[8]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[4]_LDC_i_1_n_0    |                                 | ins0/scale_red_data_path_reg[4]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[2]_LDC_i_1_n_0    |                                 | ins0/scale_red_data_path_reg[2]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[7]_LDC_i_1_n_0    |                                 | ins0/scale_red_data_path_reg[7]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  ins0/scale_red_data_path_reg[9]_LDC_i_1_n_0    |                                 | ins0/scale_red_data_path_reg[9]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[6]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[0]_LDC_i_1_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[7]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[10]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[12]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[8]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[9]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[5]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[15]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[9]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[0]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[10]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[8]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[12]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[13]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[7]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[13]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[5]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[26]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[17]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[18]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[19]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[21]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[1]_LDC_i_1_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[22]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[22]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[23]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[17]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[25]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[23]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[26]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[24]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[18]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[27]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[1]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[20]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[27]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[0]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[21]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[24]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[20]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[19]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[25]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[28]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[30]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[31]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[5]_LDC_i_1_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[29]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[31]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[30]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[6]_LDC_i_1_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[2]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[3]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[29]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[3]_LDC_i_1_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[5]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[8]_LDC_i_1_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[8]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[4]_LDC_i_1_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[2]_LDC_i_1_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[9]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[4]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[6]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[7]_LDC_i_1_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[7]_LDC_i_2_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[28]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[9]_LDC_i_1_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[10]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[10]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[11]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[13]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[14]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[11]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[14]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[13]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[15]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[15]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[16]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[16]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[12]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[0]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[0]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[12]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[23]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[27]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[18]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[1]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[22]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[25]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[27]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[19]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[18]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[1]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[24]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[25]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[26]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[23]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[21]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[19]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[20]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[17]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[21]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[22]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[26]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[28]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[17]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[20]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[24]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[28]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[5]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[8]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[3]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[3]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[30]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[31]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[4]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[6]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[7]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[29]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[6]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[8]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[4]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[2]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[7]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[0]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[29]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[30]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[9]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[9]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[5]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[2]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_blue_data_path_reg[31]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[12]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[14]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[10]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[15]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[20]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[21]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[10]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[13]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[11]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[13]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[18]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[19]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[21]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[1]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[17]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[18]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[11]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[12]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[17]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[19]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[14]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[16]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[1]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[15]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[16]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[20]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[31]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[30]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[22]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[22]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[3]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[29]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[30]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[29]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[27]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[23]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[31]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[26]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[26]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[23]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[3]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[2]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[4]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[4]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[2]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[27]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[25]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[25]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[24]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[28]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[24]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[28]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[14]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[11]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_green_data_path_reg[6]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[14]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[15]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[11]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[16]_LDC_i_2_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/scale_red_data_path_reg[16]_LDC_i_1_n_0   |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                  | en_IBUF                         | ins0/count_step[31]_i_3_n_0                    |                3 |              7 |         2.33 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_0  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[0]_0  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_6  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_10 |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[2]_2  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[1]_1  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_7  |                                                |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_9  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[1]_2  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[1]_9  |                                                |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[2]_1  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[0]_2  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[2]_10 |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_11 |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[0]_4  |                                                |                6 |              8 |         1.33 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_1  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[1]_8  |                                                |                5 |              8 |         1.60 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[1]_0  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_10 |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[2]_7  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[0]_5  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[0]_1  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[2]_5  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[1]_4  |                                                |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[2]_3  |                                                |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[2]_4  |                                                |                5 |              8 |         1.60 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_0  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_1  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_12 |                                                |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[1]_5  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[1]_6  |                                                |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[2]_6  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_3  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_5  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[1]_7  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[0]_3  |                                                |                5 |              8 |         1.60 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[2]_0  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[2]_8  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[2]_9  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_2  |                                                |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_8  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[3]_4  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_6  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[5]_7  |                                                |                5 |              8 |         1.60 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_9  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[5]_3  |                                                |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[5]_2  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[5]_5  |                                                |                5 |              8 |         1.60 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_2  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_11 |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_7  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[5]_1  |                                                |                6 |              8 |         1.33 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[5]_4  |                                                |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_8  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_12 |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[5]_9  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[5]_6  |                                                |                7 |              8 |         1.14 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[5]_8  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[5]_10 |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_3  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_4  |                                                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[4]_5  |                                                |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[5]_0  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/addr0_bram_write_reg[1]_3  |                                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                                  | ins0/count_step_0               | ins0/count_step[31]_i_3_n_0                    |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG                                  |                                 |                                                |               17 |             67 |         3.94 |
++-------------------------------------------------+---------------------------------+------------------------------------------------+------------------+----------------+--------------+
+
+

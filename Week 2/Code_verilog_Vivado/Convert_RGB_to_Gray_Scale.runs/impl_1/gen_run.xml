@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1616201204">
+  <File Type="BITSTR-BMM" Name="Convert_RGB_To_Gray_Scale_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Convert_RGB_To_Gray_Scale_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Convert_RGB_To_Gray_Scale_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Convert_RGB_To_Gray_Scale_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Convert_RGB_To_Gray_Scale.tcl"/>
+  <File Type="OPT-TIMING" Name="Convert_RGB_To_Gray_Scale_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Convert_RGB_To_Gray_Scale_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Convert_RGB_To_Gray_Scale_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Convert_RGB_To_Gray_Scale_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Convert_RGB_To_Gray_Scale_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Convert_RGB_To_Gray_Scale.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Convert_RGB_To_Gray_Scale_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Convert_RGB_To_Gray_Scale_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Convert_RGB_To_Gray_Scale_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Convert_RGB_To_Gray_Scale_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Convert_RGB_To_Gray_Scale_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Convert_RGB_To_Gray_Scale_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Convert_RGB_To_Gray_Scale_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Convert_RGB_To_Gray_Scale_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Convert_RGB_To_Gray_Scale_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Convert_RGB_To_Gray_Scale_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Convert_RGB_To_Gray_Scale_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Convert_RGB_To_Gray_Scale_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Convert_RGB_To_Gray_Scale_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Convert_RGB_To_Gray_Scale.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Convert_RGB_To_Gray_Scale_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Convert_RGB_To_Gray_Scale_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Convert_RGB_To_Gray_Scale_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Convert_RGB_To_Gray_Scale.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Convert_RGB_To_Gray_Scale_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Convert_RGB_To_Gray_Scale_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Convert_RGB_To_Gray_Scale_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Convert_RGB_To_Gray_Scale_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Convert_RGB_To_Gray_Scale_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Convert_RGB_To_Gray_Scale_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Convert_RGB_To_Gray_Scale_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Convert_RGB_To_Gray_Scale.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Convert_RGB_To_Gray_Scale_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Convert_RGB_To_Gray_Scale_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Convert_RGB_To_Gray_Scale_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Convert_RGB_To_Gray_Scale_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Convert_RGB_To_Gray_Scale_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Convert_RGB_To_Gray_Scale_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Convert_RGB_To_Gray_Scale_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Convert_RGB_To_Gray_Scale_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Convert_RGB_To_Gray_Scale_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Convert_RGB_To_Gray_Scale_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Convert_RGB_To_Gray_Scale_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Convert_RGB_To_Gray_Scale_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Convert_RGB_To_Gray_Scale_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Convert_RGB_To_Gray_Scale_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Convert_RGB_To_Gray_Scale_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Convert_RGB_To_Gray_Scale_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Convert_RGB_To_Gray_Scale_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Convert_RGB_To_Gray_Scale_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Convert_RGB_To_Gray_Scale_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Convert_RGB_To_Gray_Scale_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Convert_RGB_To_Gray_Scale_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Convert_RGB_To_Gray_Scale.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Convert_RGB_To_Gray_Scale_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Convert_RGB_To_Gray_Scale.rbt"/>
+  <File Type="BITSTR-NKY" Name="Convert_RGB_To_Gray_Scale.nky"/>
+  <File Type="PDI-FILE" Name="Convert_RGB_To_Gray_Scale.pdi"/>
+  <File Type="RCFI_FILE" Name="Convert_RGB_To_Gray_Scale.rcfi"/>
+  <File Type="CFI_FILE" Name="Convert_RGB_To_Gray_Scale.cfi"/>
+  <File Type="RNPI_FILE" Name="Convert_RGB_To_Gray_Scale.rnpi"/>
+  <File Type="NPI_FILE" Name="Convert_RGB_To_Gray_Scale.npi"/>
+  <File Type="RBD_FILE" Name="Convert_RGB_To_Gray_Scale.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Convert_RGB_To_Gray_Scale.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Convert_RGB_To_Gray_Scale.sysdef"/>
+  <File Type="BG-BGN" Name="Convert_RGB_To_Gray_Scale.bgn"/>
+  <File Type="BG-DRC" Name="Convert_RGB_To_Gray_Scale.drc"/>
+  <File Type="RDI-RDI" Name="Convert_RGB_To_Gray_Scale.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/BRAM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BRAM_Store_Data.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Calculate_Result.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Controller.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Data_Path.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Convert_RGB_To_Gray_Scale.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Convert_RGB_To_Gray_Scale"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

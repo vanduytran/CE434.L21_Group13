@@ -1,0 +1,369 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat Mar 20 07:47:57 2021
+| Host         : DESKTOP-Q4CTJVO running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -max_paths 10 -file Convert_RGB_To_Gray_Scale_timing_summary_routed.rpt -pb Convert_RGB_To_Gray_Scale_timing_summary_routed.pb -rpx Convert_RGB_To_Gray_Scale_timing_summary_routed.rpx -warn_on_violation
+| Design       : Convert_RGB_To_Gray_Scale
+| Device       : 7z020-clg484
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (1005)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (2123)
+5. checking no_input_delay (98)
+6. checking no_output_delay (8)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (1005)
+---------------------------
+ There are 813 register/latch pins with no clock driven by root clock pin: clk (HIGH)
+
+ There are 96 register/latch pins with no clock driven by root clock pin: reset_n (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[0] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[10] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[11] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[12] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[13] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[14] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[15] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[16] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[17] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[18] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[19] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[1] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[20] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[21] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[22] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[23] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[24] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[25] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[26] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[27] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[28] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[29] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[2] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[30] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[31] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[3] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[4] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[5] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[6] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[7] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[8] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_blue[9] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[0] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[10] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[11] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[12] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[13] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[14] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[15] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[16] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[17] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[18] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[19] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[1] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[20] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[21] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[22] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[23] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[24] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[25] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[26] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[27] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[28] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[29] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[2] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[30] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[31] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[3] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[4] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[5] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[6] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[7] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[8] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_green[9] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[0] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[10] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[11] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[12] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[13] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[14] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[15] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[16] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[17] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[18] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[19] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[1] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[20] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[21] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[22] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[23] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[24] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[25] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[26] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[27] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[28] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[29] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[2] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[30] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[31] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[3] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[4] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[5] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[6] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[7] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[8] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: scale_red[9] (HIGH)
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (2123)
+---------------------------------------------------
+ There are 2123 pins that are not constrained for maximum delay. (HIGH)
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (98)
+-------------------------------
+ There are 98 input ports with no input delay specified. (HIGH)
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (8)
+-------------------------------
+ There are 8 ports with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+         NA           NA                     NA                   NA           NA           NA                     NA                   NA           NA           NA                      NA                    NA  
+
+
+There are no user specified timing constraints.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+

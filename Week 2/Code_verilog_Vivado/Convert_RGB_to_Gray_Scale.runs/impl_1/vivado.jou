@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Mar 20 07:46:52 2021
+# Process ID: 13704
+# Current directory: E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.runs/impl_1
+# Command line: vivado.exe -log Convert_RGB_To_Gray_Scale.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Convert_RGB_To_Gray_Scale.tcl -notrace
+# Log file: E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.runs/impl_1/Convert_RGB_To_Gray_Scale.vdi
+# Journal file: E:/Hoc_Tap/Nam_3_Ki_2/Chuyen_De_Thiet_Ke_Vi_Mach_1/Exercises/Week_2/Convert_RGB_to_Gray_Scale/Convert_RGB_to_Gray_Scale.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Convert_RGB_To_Gray_Scale.tcl -notrace
